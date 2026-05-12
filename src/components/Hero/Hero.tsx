@@ -1,6 +1,5 @@
-import { PlayCircle, ShieldCheck } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 import styles from './Hero.module.css';
-import heroImage from '../../assets/hero-image.png';
 
 const Hero = () => {
   return (
