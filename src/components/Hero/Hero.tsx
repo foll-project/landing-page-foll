@@ -1,7 +1,11 @@
-import { ShieldCheck } from 'lucide-react';
+import { ShieldCheck, PlayCircle } from 'lucide-react';
 import styles from './Hero.module.css';
 
 const Hero = () => {
+  const handleWatchVideo = () => {
+    document.getElementById('video')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className={styles.heroSection}>
       <div className={styles.container}>
@@ -22,10 +26,10 @@ const Hero = () => {
             Empezar Ahora
             <span className={styles.arrow}>→</span>
           </button>
-          {/*<button className={styles.secondaryBtn}>
+          <button className={styles.secondaryBtn} onClick={handleWatchVideo}>
             Ver video
             <PlayCircle size={20} />
-          </button>*/}
+          </button>
         </div>
 
       </div>
