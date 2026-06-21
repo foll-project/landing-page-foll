@@ -19,10 +19,10 @@ const Header = () => {
         </nav>
 
         <div className={styles.actions}>
-          <a href="https://agreeable-dune-02d763510.7.azurestaticapps.net/login" target="_blank" rel="noopener noreferrer">
+          <a href="https://foll-frontend.vercel.app/login" target="_blank" rel="noopener noreferrer">
             <button className={styles.loginBtn}>Iniciar Sesión</button>
           </a>
-          <a href="https://agreeable-dune-02d763510.7.azurestaticapps.net/register" target="_blank" rel="noopener noreferrer">
+          <a href="https://foll-frontend.vercel.app/register" target="_blank" rel="noopener noreferrer">
             <button className={styles.registerBtn}>Registrarse</button>
           </a>
         </div>
