@@ -12,6 +12,8 @@ const Header = () => {
 
         <nav className={styles.nav}>
           <ul className={styles.navLinks}>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#proteccion-integral">Protección Integral</a></li>
             <li><a href="#how-it-works">Cómo funciona</a></li>
             <li><a href="#testimonials">Testimonios</a></li>
             <li><a href="#pricing">Precios</a></li>
