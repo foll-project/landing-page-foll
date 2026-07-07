@@ -1,5 +1,4 @@
-import { ShieldCheck, PlayCircle } from 'lucide-react';
-import styles from './Hero.module.css';
+import { ShieldCheck, PlayCircle, Download } from 'lucide-react';import styles from './Hero.module.css';
 
 const Hero = () => {
   const handleWatchVideo = () => {
@@ -22,10 +21,12 @@ const Hero = () => {
         </p>
 
         <div className={styles.actions}>
-          <a href="/Foll-App.apk" download className={styles.primaryBtn} style={{ textDecoration: 'none' }}>
-            Descarga la app ahora
-            <span className={styles.arrow}>→</span>
-          </a>
+          <a href="./public/Foll-App.apk" download="Foll-App.apk" className={styles.primaryBtn} style={{ textDecoration: 'none' }}>
+        Descarga la app ahora
+        <span className={styles.arrow}>
+          <Download size={20} />
+        </span>
+      </a>
           <button className={styles.secondaryBtn} onClick={handleWatchVideo}>
             Ver video
             <PlayCircle size={20} />
