@@ -22,10 +22,10 @@ const Hero = () => {
         </p>
 
         <div className={styles.actions}>
-          <button className={styles.primaryBtn}>
-            Empezar Ahora
+          <a href="/Foll-App.apk" download className={styles.primaryBtn} style={{ textDecoration: 'none' }}>
+            Descarga la app ahora
             <span className={styles.arrow}>→</span>
-          </button>
+          </a>
           <button className={styles.secondaryBtn} onClick={handleWatchVideo}>
             Ver video
             <PlayCircle size={20} />
